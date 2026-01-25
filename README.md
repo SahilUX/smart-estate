@@ -76,19 +76,17 @@ The system uses polling-based updates for near real-time dashboard behavior, whi
 
 ---
 
-## Repository Structure
+## Structure
 
 ```smart-estate/
-├── backend/                           # FastAPI backend services
-├── ai-service/                        # AI classification and inference services
-├── dashboard/                         # React web dashboard (Ops & Admin)
-│   ├── admin-dashboard/               # Admin Dashboard
-│   └── operations-manager-dashboard/  # Operations Manager Dashboard
-├── mobile/
-│   ├── tenant-app/                    # Tenant application
-│   └── technician-app/                # Technician application
-├── docs/                              # Architecture, API contracts, documentation
-├── docker-compose.yml
+├── backend                                    # FastAPI backend services
+├── ai-service                                 # AI classification and inference services
+├── dashboard                                  # React web dashboard (Ops & Admin)
+│   ├── admin-operations-manager-dashboard     # Admin Dashboard
+├── mobile
+│   ├── tenant-app                             # Tenant application
+│   └── technician-app                         # Technician application
+├── docs                                       # Architecture, API contracts, documentation
 └── README.md
 ```
 
@@ -100,7 +98,7 @@ The system uses polling-based updates for near real-time dashboard behavior, whi
 
 - React (Web Dashboard)
     
-- (TBD) (Mobile Apps)
+- React (Mobile Apps)
     
 
 **Backend**
