@@ -4,6 +4,7 @@
 
 ## Overview
 
+
 Smart Estate is an AI-driven maintenance management platform designed to modernize how residential and commercial buildings handle tenant maintenance requests. The system enables tenants to report issues using text, images, or videos, automatically classifies and prioritizes these issues using AI, and assigns the most suitable technician based on availability, skills, and urgency.
 
 The platform improves transparency, reduces response times, and provides operations managers with real-time visibility into maintenance workflows and SLA performance.
